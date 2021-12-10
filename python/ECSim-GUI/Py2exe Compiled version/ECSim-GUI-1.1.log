@@ -1,0 +1,18 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.pyc", line 1705, in __call__
+  File "ECSim-GUI-1.1.py", line 795, in export_data
+  File "pandas\core\generic.pyc", line 3482, in to_csv
+  File "pandas\io\formats\format.pyc", line 1105, in to_csv
+  File "pandas\io\formats\csvs.pyc", line 243, in save
+  File "pandas\io\common.pyc", line 707, in get_handle
+FileNotFoundError: [Errno 2] No such file or directory: ''
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.pyc", line 1705, in __call__
+  File "ECSim-GUI-1.1.py", line 795, in export_data
+  File "pandas\core\generic.pyc", line 3482, in to_csv
+  File "pandas\io\formats\format.pyc", line 1105, in to_csv
+  File "pandas\io\formats\csvs.pyc", line 243, in save
+  File "pandas\io\common.pyc", line 707, in get_handle
+FileNotFoundError: [Errno 2] No such file or directory: ''
